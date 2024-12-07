@@ -1,0 +1,113 @@
+header {
+    font-family: 'Montserrat', serif;
+    background-color: #1e3d59;
+    font-size: 4em;
+    color: #f5f0e1;
+    padding: 20px 0;
+    z-index: 1001;
+    width: 100%;
+    text-align: center; 
+    margin: 0 auto; 
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: #f5f0e1;
+    margin: 0;
+  }
+  label{
+    display: block;
+    margin-top: 1em;
+}
+.enterpay{
+    font-family: "Roboto", sans-serif;
+    font-size: 23px; 
+}
+input, select {
+    width: 60%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    margin-top: 8px;
+  }
+
+  button {
+    font-family: "Roboto", sans-serif;
+    padding: 15px 20px;
+    background-color: #1e3d59;
+    color: #f5f0e1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color:#346998;
+  }
+
+  #result {
+    font-family: "Roboto", sans-serif;
+    font-size:23px;
+}
+nav {
+  background-color: #1e3d59;
+  position: sticky;
+  top: 0;
+  z-index: 500; 
+  width: 100%;
+  display: flex; 
+  justify-content: flex-end; 
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu > li {
+  position: relative;
+
+}
+
+.menu a {
+  display: block;
+  padding: 15px 20px;
+  color: #f5f0e1;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+.menu a:hover {
+  background-color: rgba(43, 42, 42, 0.145);;
+}
+
+.dropdown-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color:  #244d70;
+  display: none;
+}
+
+.dropdown-menu li a {
+  padding: 10px 20px;
+  
+}
+
+.dropdown-menu li a:hover {
+  background-color: rgba(43, 42, 42, 0.145);
+}
+
+.menu .dropdown:hover .dropdown-menu {
+  display: block; 
+}

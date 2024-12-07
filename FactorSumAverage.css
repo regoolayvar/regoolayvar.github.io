@@ -1,0 +1,125 @@
+header {
+    font-family: 'Montserrat', serif;
+    background-color: #1e3d59;
+    font-size: 3em;
+    color: #f5f0e1;
+    padding: 20px 0;
+    z-index: 1001;
+    width: 100%;
+    text-align: center; 
+    margin: 0 auto; 
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: #f5f0e1;
+    margin: 0;
+  }
+
+label{
+  display: block;
+  margin-top: 1.5em;
+}
+label.enternumber {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px; 
+}
+
+input, select, button {
+    font-family: "Roboto", sans-serif !important;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    font-size: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    background-color: #1e3d59;
+    color: #f5f0e1;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #346998;
+}
+
+
+
+#Fresult {
+    font-family: "Roboto", sans-serif;
+    margin-top: 8px;
+    font-size: 23px;
+}
+#Sresult {
+    font-family: "Roboto", sans-serif;
+    margin-top: 8px;
+    font-size: 23px;
+}
+#Aresult {
+    font-family: "Roboto", sans-serif;
+    margin-top: 8px;
+    font-size: 23px;
+}
+
+  nav {
+    background-color: #1e3d59;
+    position: sticky;
+    top: 0;
+    z-index: 500; 
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end; 
+}
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu > li {
+    position: relative;
+ 
+  }
+  
+  .menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #f5f0e1;
+    text-decoration: none;
+    font-size: 18px;
+    
+  }
+  
+  .menu a:hover {
+    background-color: rgba(43, 42, 42, 0.145);;
+  }
+
+  .dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:  #244d70;
+    display: none;
+  }
+  
+  .dropdown-menu li a {
+    padding: 10px 20px;
+    
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: rgba(43, 42, 42, 0.145);
+  }
+
+  .menu .dropdown:hover .dropdown-menu {
+    display: block; 
+  }
